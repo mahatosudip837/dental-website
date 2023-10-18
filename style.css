@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    min-height: 100vh !important;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    padding: 5px 5%;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.logo_img{
+    width: 55px;
+}
+.nav-link{
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: rgb(241,136,241);
+}
+.nav-item{
+    margin: 0 7px;
+}
+.navbar_media{
+    display: flex;
+    justify-self: end;
+    align-items: center;
+}
+.phone_media{
+    width: 35px;
+    height: 35px;
+    background-color: #01d3be;
+    color: #fff;
+    font-size: 13px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.icon_media{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #cefffa;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
+    padding: 0 33px 0 14px;
+    transition: all .5s ease-in-out;
+}
+.number:hover{
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.btn1{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 11px 40px;
+    background-color: #01d3be;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 40px;
+    transition: 0.3s ease;
+}
+.btn1:hover{
+    background-color: #028a7c;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* banner-section design  */
+.banner-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg,#ffffffd8 25%,#1d030900 63%),url('https://plus.unsplash.com/premium_photo-1681966950824-92ad8be50847?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    opacity: 1;
+    padding-top: 60px;
+}
+.content_banner{
+    width: 55%;
+    padding: 50px 0;
+}
+.heading_home{
+    font-size: 70px;
+    font-weight: 700;
+}
+.paragraph_home{
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn2{
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #01d3be;
+    border-radius: 40px;
+    color: #01d3be;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.btn2:hover{
+    background-color: #01d3be;
+    color: #fff;
+}
+.play_btn_span{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0,0,0,0.5);
+    padding: 0 15px;
+}
+/* form appointment section design  */
+.form_container_appointment{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.parent_container_content_form{
+    display: flex;
+    justify-content: center;
+}
+.content_form{
+    width: 80%;
+    box-shadow: 0 0 14px 9px rgba(0,0,0,0.5);
+    padding: 32px;
+    border-radius: 6px;
+}
+.heading_form{
+    font-size: 21px;
+    font-weight: 700;
+    position: relative;
+}
+.heading_form::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 90px;
+    height: 3px;
+    background-color: rgb(192,29,97);
+}
+.heading_form span{
+    color: rgb(192,29,97);
+}
+.label{
+    margin: 9px 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.input_box_form{
+    width: 100%;
+    padding: 9px 16px;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.671);
+}
